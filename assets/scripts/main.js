@@ -64,6 +64,7 @@ function initializeServiceWorker() {
         console.log('ServiceWorker registration successful with scope: ', registration.scope);
       }, function(err) {
         // registration failed :(
+        console.log(registration);
         console.log('ServiceWorker registration failed: ', err);
       });
     });
