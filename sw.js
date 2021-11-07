@@ -3,6 +3,9 @@
 
 const CACHE_NAME = 'lab-7-starter';
 const urlsToCache = [
+  '/',
+  '/Lab7_Starter/assets/styles/main.css',
+  '/Lab7_Starter/assets/scripts/main.js',
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
   'https://introweb.tech/assets/json/chocolateChip.json',
